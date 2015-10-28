@@ -1,0 +1,94 @@
+.navbar
+{
+    background: none repeat scroll 0 0 #438eb9;
+    border-radius: 0;
+    border-width: 0;
+    box-shadow: none;
+    margin: 0;
+    min-height: 45px;
+    height: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    color: #ffffff;
+}
+.container-fluid
+{
+    height: 70px;
+    min-height: 45px;
+
+}
+.navbar-default .navbar-brand
+{
+    padding-top: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+{
+    background-color: #46b8da;
+    color: #ffff00;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-collapse.collapse
+{
+    padding-top: 10px;
+}
+.nav-user-photo {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin: -4px 8px 0 0;
+    max-width: 40px;
+}
+
+.fa
+{
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    font-family: FontAwesome;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+.nav {
+    list-style: outside none none;
+}
+
+.ace-nav > li > a > .ace-icon {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    width: 20px;
+}
+.navbar-user
+{
+    margin-top: 5px;
+}
+.pull-right
+{
+    float: right;
+}
+.navbar-user a
+{
+    color: #fff;
+}
+
+body
+{
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 1.5;
+}
